@@ -8,9 +8,15 @@
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./assets/images/almeelogo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
+    },
+    "entryPoint": "./app/src/SplashScreen.js",
+    "extra": {
+      "splash": {
+        "image": "./assets/images/almeelogo.png"
+      }
     },
     "assetBundlePatterns": [
       "**/*"
